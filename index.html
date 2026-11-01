@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Universal Smart TV Remote, an Android TV and Google TV remote by Ryan Wen.">
+  <title>Privacy Policy — Universal Smart TV Remote</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { max-width: 76ch; margin: auto; padding: 28px 20px 64px; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin-bottom: .4rem; }
+    h2 { margin-top: 2.2rem; font-size: 1.35rem; }
+    a { color: #2466bd; overflow-wrap: anywhere; }
+    li { margin: .5rem 0; }
+    .meta { color: #555; }
+    .intro { padding: 16px 20px; border: 1px solid #aaa; border-radius: 10px; }
+    code { overflow-wrap: anywhere; }
+    @media (prefers-color-scheme: dark) { a { color: #8ebcff; } .meta { color: #bbb; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p><strong>Universal Smart TV Remote</strong></p>
+  <p class="meta">Last updated: <time datetime="2026-11-01">1 November 2026</time><br>
+  Developer: Ryan Wen<br>Android package: <code>com.ryanw.universaltvcontroller</code><br>
+  Contact: <a href="mailto:jspaceauto@gmail.com">jspaceauto@gmail.com</a></p>
+
+  <div class="intro">
+    <p>This app controls compatible Android TV / Google TV devices over your local network. You do not need an app account. Usage statistics and crash reporting are optional and <strong>off by default</strong>. If you enable them, our reporting providers process technical information, usage and purchase-status events, pseudonymous identifiers and your connection IP. This release displays no ads.</p>
+  </div>
+
+  <h2>1. Local remote control and saved settings</h2>
+  <p>The app discovers TVs on the local network and sends commands to the TV you select. Pairing requires the code shown on that TV. Paired remote connections use TLS. Text you submit, YouTube searches and app-launch links are sent to the selected TV as part of the action you request. The TV and any destination app or service handle that content under their own policies.</p>
+  <p>The app stores settings on your phone, including saved TV names and network addresses, pairing certificates and trust information, shortcut preferences, appearance settings, Pro entitlement, consent choices and active timer information. These records support local operation; the app does not provide a developer-hosted account or cloud synchronization service.</p>
+  <p><strong>Android backup:</strong> this version allows Android backup. Depending on Android version, manufacturer and your backup or device-transfer settings, local app preferences, saved TV information, credential files and other app data may be copied to your platform backup or another device. These platform-managed copies are separate from our optional reporting and are controlled through your device and backup provider. Clearing this app does not necessarily remove earlier backups. See <a href="https://developer.android.com/identity/data/autobackup">Android's backup information</a>.</p>
+
+  <h2>2. Optional usage and crash reporting</h2>
+  <p>Optional reporting is available only to users aged 18 or older. When you choose to enable reporting, the app first asks for an age range. Adult eligibility and an explicit reporting opt-in are both required. Reporting stays off for anyone under 18, anyone who does not answer, or anyone who declines. We use <strong>Sentry</strong> for JavaScript and native Android errors and crash reports, and <strong>Aptabase</strong> for usage events. Their cloud services receive enabled reports to help us understand feature use, diagnose problems and improve the app.</p>
+  <p>When enabled, reports may include:</p>
+  <ul>
+    <li><strong>App interactions:</strong> screens and features opened, scan counts, connection and pairing result categories, and whether actions such as text entry, YouTube search or shortcut creation occurred.</li>
+    <li><strong>Purchase status:</strong> whether Pro was unlocked or a previous Pro purchase was found during restoration.</li>
+    <li><strong>Crash and diagnostic information:</strong> error messages, stack traces, app and SDK versions, operating-system and device information, and related technical context.</li>
+    <li><strong>Pseudonymous identifiers:</strong> Sentry's native Android SDK uses a random identifier retained for an app installation. Aptabase uses a session identifier generated in memory that changes on reload or after a period without events. On its servers, Aptabase also derives a daily pseudonymous user identifier from your connection IP and User-Agent using a per-app keyed hash. Its hash key rotates every 24 hours and is permanently deleted within 48 hours of creation. These identifiers can associate events within an installation, session or day.</li>
+    <li><strong>Connection IP and approximate location:</strong> receiving services process the IP used to connect to them. Aptabase derives country and region from the IP and states that the raw IP and User-Agent are processed only in memory and are not stored. Sentry may derive approximate location from its receiving connection. The app does not request Android precise-location permission; this does not prevent IP-based approximate location processing.</li>
+  </ul>
+  <p>Our custom usage events use a restricted list of properties and do not include the text of TV typing, YouTube search queries, pairing codes or custom shortcut names and links. JavaScript error reports apply additional redaction of some addresses and query content. Those JavaScript hooks do not cover every native crash report, and we do not promise that all native diagnostic context is removed.</p>
+  <p>Reporting is used for app analysis and reliability, not advertising. We do not use these reports to create an app login or ask you to provide your name, email or phone number to enable reporting. Sentry and Aptabase process the reporting data as our service providers; their applicable privacy information is available at <a href="https://sentry.io/privacy/">Sentry Privacy</a> and <a href="https://aptabase.com/legal/privacy">Aptabase Privacy</a>.</p>
+
+  <h2>3. Your reporting choice</h2>
+  <p>You can use the remote without enabling reports. You can turn reporting off in <strong>Settings → Privacy</strong>. This stops new collection through the app's reporting controls; reports already queued or in transit may still finish sending. Turning reporting off does not delete reports already received.</p>
+  <p>If you previously enabled reporting under an earlier privacy notice, reporting remains off until you explicitly choose to enable it after reading the updated notice. A previous choice to keep reporting off remains in effect.</p>
+
+  <h2>4. Google Play purchases</h2>
+  <p>Core remote controls are free. Pro is an optional, one-time, non-consumable Google Play purchase, not a subscription. The app checks purchase ownership to unlock or restore Pro features. Google Play handles payment, billing and transaction records under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. The app does not receive your payment-card details. If you enable reporting, Pro purchase and restoration status may also appear in the usage events described above.</p>
+
+  <h2>5. Security, retention and deletion</h2>
+  <p>Configured Sentry and Aptabase reporting connections use HTTPS. The app uses local storage for its own settings and TLS for paired TV remote connections. Security also depends on your phone, TV, network and platform backup settings; no method provides an absolute security guarantee.</p>
+  <p>Aptabase states that app analytics data may be stored for up to five years. Sentry reports follow the retention settings and service arrangements that apply to that service, together with applicable legal obligations. Turning reporting off does not erase reports already received. Local settings remain until removed through app features, Android's app-storage controls or uninstallation, subject to platform backup and restoration.</p>
+  <p id="deletion">For a privacy question or deletion request, email <a href="mailto:jspaceauto@gmail.com">jspaceauto@gmail.com</a>. We can review requests, but there is no in-app account-deletion feature or self-service report-deletion API. Because reports use pseudonymous identifiers rather than an app account, we may not be able to locate an installation's reports from an email address alone. We do not promise deletion of records we cannot identify or records retained by Google or another provider under its own obligations. Google Play transaction records and platform backups are managed through their respective services.</p>
+  <p>If you contact support, your email address and the information you choose to include are used to respond to your request. Avoid including payment-card details or pairing credentials.</p>
+
+  <h2>6. Children and external services</h2>
+  <p>The remote-control functions are available to users of all ages, subject to applicable store ratings and device or parental controls. Children and users whose adult eligibility is not confirmed cannot enable our optional diagnostics or usage reporting. Choosing not to report does not restrict the remote controls. Only reporting eligibility is saved locally; we do not request a date of birth or send the age selection to our reporting providers. If you believe a child has provided personal information to us, contact the address above so we can review it.</p>
+  <p>Privacy-policy links, app shortcuts, purchases and the TV's streaming apps may open or communicate with separate services. This policy describes our app's handling; those services have their own practices.</p>
+
+  <h2>7. Changes and contact</h2>
+  <p>We will update the date above when this policy changes. Material changes to optional reporting may require a new in-app choice before reporting starts. Questions: <a href="mailto:jspaceauto@gmail.com">jspaceauto@gmail.com</a>.</p>
+  <p><a href="terms.html">Terms of Use</a></p>
+</main>
+</body>
+</html>
